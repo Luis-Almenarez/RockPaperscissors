@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --style=compressed src/scss/main.scss ./public/css/bundle.css --watch"
+  },
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.67.0"
+  }
+}
