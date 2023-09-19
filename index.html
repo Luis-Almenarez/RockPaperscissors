@@ -7,8 +7,39 @@
     <title>Rock, Papaer and Scissors</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="header">
+      <h1>Rock, Paper and Scissors</h1>
+    </header>
+    <main class="main">
+      <p class="instructions">¡El primero en acumular 5 puntos ganará!</p>
+      <div class="marker">
+        <p class="name name__player">Player</p>
+        <p class="name name__pc">Machine</p>
+        <p>
+          <span class="point__user">0</span>
+          <span>-</span>
+          <span class="point__pc">0</span>
+        </p>
+      </div>
+      <div class="atack" id="atack">
+        <h2>Elige qué usar en tu siguiente turno</h2>
+        <div class="arms">
+          <buttton class="arm" id="rock🪨">🪨</buttton>
+          <buttton class="arm" id="paper📃">📃</buttton>
+          <buttton class="arm" id="scissors✂️">✂️</buttton>
+        </div>
+      </div>
+      <div class="message" id="message">
+        <p>
+          Haz utilizado
+          <span class="election" id="election__user">Papel📃</span>
+          <br />
+          <span class="election" id="election__pc">Y la computadora ha usado 🪨</span>
+        </p>
+        <p id="win__point">¡Haz ganado un punto! 🔥</p>
+      </div>
+      <button class="btn" id="reset">Comenzar de nuevo</button>
+    </main>
     <footer></footer>
   </body>
 </html>

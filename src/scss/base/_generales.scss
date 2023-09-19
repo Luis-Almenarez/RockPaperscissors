@@ -14,8 +14,7 @@ html {
 }
 
 body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
   font-family: v.$font-principal;
+  background-color: v.$bg-color;
+  color: v.$letter-color;
 }

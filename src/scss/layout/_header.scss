@@ -1,0 +1,15 @@
+@use "../base/variables" as v;
+
+.header {
+  display: grid;
+  place-items: center;
+  background-color: v.$letter-color;
+  color: v.$bg-color;
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 0 5rem 0 5rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+}

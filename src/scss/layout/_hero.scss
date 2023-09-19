@@ -1,0 +1,40 @@
+@use "../base/variables" as v;
+
+.main {
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.instructions {
+  margin-bottom: 5rem;
+}
+
+.marker {
+  background-color: v.$letter-color;
+  padding: 2rem 4rem;
+  border-radius: 1.5rem;
+  color: v.$bg-color;
+  position: relative;
+
+  .name {
+    position: absolute;
+    color: v.$clr-gold;
+    background-color: v.$bg-color;
+    line-height: 1;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid v.$letter-color;
+  }
+
+  .name__player {
+    border-radius: 1rem;
+    right: 85%;
+  }
+
+  .name__pc {
+    left: 85%;
+  }
+}
