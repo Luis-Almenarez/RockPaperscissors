@@ -4,29 +4,33 @@
   display: grid;
   place-items: center;
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 .instructions {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .marker {
   background-color: v.$letter-color;
-  padding: 2rem 4rem;
+  padding: 3rem 10rem;
   border-radius: 1.5rem;
   color: v.$bg-color;
   position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 3rem;
 
   .name {
     position: absolute;
-    color: v.$clr-gold;
+    color: v.$letter-color;
     background-color: v.$bg-color;
     line-height: 1;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    border: 1px solid v.$letter-color;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 3px solid v.$letter-color;
   }
 
   .name__player {
@@ -37,4 +41,69 @@
   .name__pc {
     left: 85%;
   }
+}
+
+.atack {
+  margin-bottom: 5rem;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+  }
+
+  .arms {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    .arm {
+      background-color: v.$letter-color;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      cursor: pointer;
+      font-size: 4rem;
+      transition: all 300ms;
+
+      &:hover {
+        box-shadow: 0 1rem 5rem 0 #413a3a, 0 8px 8px 0 #413a3a;
+        transform: translate(0px, 0.5rem);
+      }
+    }
+  }
+}
+
+.message {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+
+  .election {
+    color: v.$bg-color;
+    background-color: v.$letter-color;
+    border-radius: 1rem;
+    padding-inline-start: 1rem;
+  }
+}
+
+.btn {
+  border: none;
+  line-height: 1;
+  background-color: v.$letter-color;
+  color: v.$bg-color;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  transition: all 300ms;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 1rem 5rem 0 #413a3a, 0 8px 8px 0 #413a3a;
+    transform: scale(1.1);
+  }
+}
+
+.disable {
+  display: none;
 }
