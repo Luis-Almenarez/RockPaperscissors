@@ -4,7 +4,7 @@
   display: grid;
   place-items: center;
   padding: 2rem;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
 
 .marker {
   background-color: v.$letter-color;
-  padding: 3rem 10rem;
+  padding: 3rem 6rem;
   border-radius: 1.5rem;
   color: v.$bg-color;
   position: relative;
@@ -35,11 +35,11 @@
 
   .name__player {
     border-radius: 1rem;
-    right: 85%;
+    right: 75%;
   }
 
   .name__pc {
-    left: 85%;
+    left: 75%;
   }
 }
 
