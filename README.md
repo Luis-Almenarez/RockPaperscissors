@@ -28,5 +28,5 @@ Puedes ver una vista previa en vivo de la landing page [aquí](https://cuarzopap
 
 ![Captura de pantalla 2023-09-23 a las 19 39 50](https://github.com/Luis-Almenarez/RockPaperscissors/assets/125621759/5c8a7971-f3b0-45cd-94b0-6f9249511ca7)
 
-
+<hr>
 <hr>
