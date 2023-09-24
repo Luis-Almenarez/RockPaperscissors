@@ -4,12 +4,28 @@
   display: grid;
   place-items: center;
   padding: 2rem;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   text-align: center;
 }
 
 .instructions {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.losser__message {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem;
+  color: red;
+}
+
+.win__message {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem;
+  color: green;
 }
 
 .marker {
@@ -21,7 +37,7 @@
   display: flex;
   align-items: center;
   font-weight: bold;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   .name {
     position: absolute;
@@ -44,7 +60,7 @@
 }
 
 .atack {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 
   h2 {
     font-size: 3rem;
@@ -101,7 +117,6 @@
 
   &:hover {
     box-shadow: 0 1rem 5rem 0 #413a3a, 0 8px 8px 0 #413a3a;
-    transform: scale(1.1);
   }
 }
 

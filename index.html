@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/css/bundle.css" />
-    <title>Rock, Papaer and Scissors</title>
+    <title>Rock, Paper and Scissors</title>
   </head>
   <body>
     <header class="header">
@@ -12,6 +12,7 @@
     </header>
     <main class="main">
       <p class="instructions">¡El primero en acumular 5 puntos gana!</p>
+      <p class="win__message losser__message"></p>
       <div class="marker">
         <p class="name name__player">Player</p>
         <p class="name name__pc">Machine</p>
@@ -29,7 +30,7 @@
           <button class="arm" id="scissors✂️">✂️</button>
         </div>
       </div>
-      <div class="message" id="message">
+      <div class="message disable" id="message">
         <p>
           Haz utilizado
           <span class="election" id="election__user">Papel📃</span>
@@ -37,7 +38,7 @@
           Y la computadora ha usado
           <span class="election" id="election__pc">Piedra🪨</span>
         </p>
-        <p id="win__point">¡Haz ganado un punto! 🔥</p>
+        <p class="disable" id="win__point">¡Haz ganado un punto! 🔥</p>
       </div>
       <button class="btn" id="reset">Comenzar de nuevo</button>
     </main>
